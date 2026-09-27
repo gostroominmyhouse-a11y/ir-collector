@@ -1,0 +1,22 @@
+{
+    "abuseipdb_api_key": "",
+    "abuseipdb_max_age_days": 90,
+    "max_ips_to_check": 50,
+    "suspicious_score_threshold": 25,
+    "request_timeout_seconds": 10,
+    "log_files": [
+        "/var/log/auth.log",
+        "/var/log/secure",
+        "/var/log/system.log"
+    ],
+    "failed_login_keywords": [
+        "Failed password",
+        "Invalid user",
+        "authentication failure",
+        "Logon Failure",
+        "An account failed to log on"
+    ],
+    "export_system_log": true,
+    "windows_max_events": 500,
+    "journal_days": 7
+}

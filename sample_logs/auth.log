@@ -1,0 +1,20 @@
+Sep 24 02:14:07 web-srv-01 sshd[2211]: Accepted publickey for deploy from 192.168.1.10 port 51522 ssh2: RSA SHA256:q3bXkT0dQm1vRkq8yWvZl5nH8xE2pR7sT4uV6wX9yZ0
+Sep 24 02:14:07 web-srv-01 sshd[2211]: pam_unix(sshd:session): session opened for user deploy(uid=1001) by (uid=0)
+Sep 24 03:01:15 web-srv-01 sshd[2301]: Invalid user admin from 185.220.101.34 port 40112
+Sep 24 03:01:17 web-srv-01 sshd[2301]: Failed password for invalid user admin from 185.220.101.34 port 40112 ssh2
+Sep 24 03:01:19 web-srv-01 sshd[2303]: Failed password for root from 185.220.101.34 port 40118 ssh2
+Sep 24 03:01:21 web-srv-01 sshd[2305]: Failed password for root from 185.220.101.34 port 40124 ssh2
+Sep 24 03:01:24 web-srv-01 sshd[2307]: Failed password for root from 185.220.101.34 port 40130 ssh2
+Sep 24 03:01:26 web-srv-01 sshd[2309]: Invalid user oracle from 185.220.101.34 port 40136
+Sep 24 03:01:28 web-srv-01 sshd[2309]: Failed password for invalid user oracle from 185.220.101.34 port 40136 ssh2
+Sep 24 03:01:31 web-srv-01 sshd[2311]: Failed password for invalid user test from 185.220.101.34 port 40142 ssh2
+Sep 24 03:05:40 web-srv-01 sshd[2340]: Failed password for root from 185.220.101.47 port 55012 ssh2
+Sep 24 03:05:43 web-srv-01 sshd[2342]: Failed password for root from 185.220.101.47 port 55020 ssh2
+Sep 24 03:05:46 web-srv-01 sshd[2344]: Failed password for ubuntu from 185.220.101.47 port 55028 ssh2
+Sep 24 04:12:00 web-srv-01 sudo: pam_unix(sudo:auth): authentication failure; logname=deploy uid=1001 euid=0 tty=/dev/pts/0 ruser=deploy rhost=  user=deploy
+Sep 24 04:12:09 web-srv-01 sudo:   deploy : TTY=pts/0 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Sep 24 08:30:11 web-srv-01 sshd[2450]: Failed password for alice from 10.0.0.23 port 60211 ssh2
+Sep 24 08:30:15 web-srv-01 sshd[2450]: Accepted password for alice from 10.0.0.23 port 60211 ssh2
+Sep 24 09:00:02 web-srv-01 CRON[2501]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Sep 24 09:17:44 web-srv-01 sshd[2533]: Failed password for bob from 172.16.5.4 port 49822 ssh2
+Sep 24 09:20:01 web-srv-01 sshd[2540]: Connection closed by 127.0.0.1 port 38844 [preauth]
